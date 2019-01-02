@@ -20,16 +20,18 @@ while True:
             print('You approach the enemy base.')
             print('Your mission is to infiltrate, and assassinate the military officer.')
             print('How do you sneak in?')
-            print('1. Slink into the sewers from the nearby channel.')
-            print('2. Attempt to subdue the guard at the checkpoint ahead.')
+            print('a. Slink into the sewers from the nearby channel.')
+            print('b. Attempt to subdue the guard at the checkpoint ahead.')
         if Fl =='n':
-            print('Please close the window. Personal data safely encrypted.')
+            print('Please close the window.')
 while True:
-    query = input('Select: ')
+    query = input('Please choose a or b')
     Fl = query[0].lower()
-    if query == ''or not Fl in ['1','2']:
-        print('Type 1 or 2 to select choices')
-        if Fl=='1':
+    if query == ''or not Fl in ['a','b']:
+        print('Please answer with a or b only!')
+    else:
+        break
+    if Fl=='a':
             print('The water is warm from the summer as you stride into the dark waves.')
             print('')
             print('Your personal swimming device hums gently as it pulls you deeper.')
@@ -44,7 +46,7 @@ while True:
             print('You travel a bit further.')
             print('')
             print('You think you have found the entrance. You push aside seaweed to reveal a latch.')
-        if Fl=='2':
+    if Fl=='b':
             print('You lay prone between some bushes, peering at the compound through your binoculars.')
             print('')
             print('You see the checkpoint just ahead, a single guard paces back and forth in front of the barrier.')
