@@ -1,5 +1,5 @@
 #this is a silly text game
-
+#obsolete and broken code, doesn't even function, but we learned things
 print('U n d e r c o v e r : R P G ')
 while True:
     query = input('Do you wish to begin?y/n: ')
