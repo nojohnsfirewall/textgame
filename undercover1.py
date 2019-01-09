@@ -20,7 +20,7 @@ print('Mission START')
 input('(Press Enter to continue)')
 
 print('Foreign Soil, 1984.\nThere are a couple of different ways to approach the compound.')
-choice=None
+choice=None             #reformatted lingo of option code, but hit a wall. posted to show progress. prints are simplistic to fill space.
 while choice== None:
     choice = input('Which do you choose?\nA)The the dark cold channel into the sewers.\nB)Advance to the guardpost ahead ')
     if choice == 'A':
